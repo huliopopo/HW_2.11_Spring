@@ -1,0 +1,20 @@
+package pro.sky.skyprospringstore.item;
+
+public class Item {
+    private final Integer id;
+    private final String name;
+
+
+    public Item(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
